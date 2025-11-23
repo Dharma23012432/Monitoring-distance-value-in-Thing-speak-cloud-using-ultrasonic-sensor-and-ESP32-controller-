@@ -1,7 +1,7 @@
-## NAME:DHARMALINGAM S
-## REG NO:212223040037
+## NAME : DHARMALINGAM S
+## REG NO : 212223040037
 
-# Monitoring distance value in Thing speak cloud using ultrasonic sensor and ESP32 controller
+# Ex 6 : Monitoring distance value in Thing speak cloud using ultrasonic sensor and ESP32 controller
 
 # Uploading ultrasonic sensor data in Thing Speak cloud
 
