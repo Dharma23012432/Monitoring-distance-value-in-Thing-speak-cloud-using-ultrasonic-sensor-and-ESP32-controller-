@@ -103,7 +103,7 @@ Prototype and build IoT systems without setting up servers or developing web sof
 #include "ThingSpeak.h"
 #include <WiFi.h>
 char ssid[] = "Poco M2 Pro"; //SSID
-char pass[] = "Chandru@17"; // Password
+char pass[] = "12345678"; // Password
 const int trigger = 2;
 const int echo = 26;
 long T;
