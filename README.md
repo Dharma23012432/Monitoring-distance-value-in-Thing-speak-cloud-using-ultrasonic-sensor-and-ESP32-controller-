@@ -1,7 +1,7 @@
-## NAME : DHARMALINGAM S
-## REG NO : 212223040037
+# NAME  : DHARMALINGAM S
+# REG NO : 212223040037
 
-# Ex 6 : Monitoring distance value in Thing speak cloud using ultrasonic sensor and ESP32 controller
+# Monitoring distance value in Thing speak cloud using ultrasonic sensor and ESP32 controller
 
 # Uploading ultrasonic sensor data in Thing Speak cloud
 
@@ -99,20 +99,21 @@ Prototype and build IoT systems without setting up servers or developing web sof
 
  
 # PROGRAM:
+
 ```
 #include "ThingSpeak.h"
 #include <WiFi.h>
-char ssid[] = "Poco M2 Pro"; //SSID
-char pass[] = "12345678"; // Password
+char ssid[] = "OnePlus"; //SSID
+char pass[] = "00000000"; // Password
 const int trigger = 2;
 const int echo = 26;
 long T;
 float distanceCM;
 WiFiClient  client;
 
-unsigned long myChannelField = 3128330; // Channel ID
+unsigned long myChannelField = 3172627; // Channel ID
 const int ChannelField = 1; // Which channel to write data
-const char * myWriteAPIKey = "6130E9HO311X7UCI"; // Your write API Key
+const char * myWriteAPIKey = "CHLQWDQXAMEUG7MR"; // Your write API Key
 
 void setup()
 {
@@ -152,18 +153,16 @@ void loop()
 
 ```
 # CIRCUIT DIAGRAM:
-
-<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/d4392de4-9046-4392-bccf-275acc65272f" />
+![WhatsApp Image 2025-11-20 at 09 51 30_f5fde4be](https://github.com/user-attachments/assets/0ab11073-92c0-4e4d-b185-f8b76e494ea3)
 
 
 
 # OUTPUT:
-<img width="1919" height="1079" alt="Screenshot 2025-11-20 083622" src="https://github.com/user-attachments/assets/501e9612-87c7-4d70-9080-9bbfd06ae0e9" />
 
-<img width="323" height="283" alt="Screenshot 2025-11-20 100140" src="https://github.com/user-attachments/assets/6f7ea06b-d1cc-47c8-a196-4b19643fabcc" />
-<img width="904" height="806" alt="Screenshot 2025-11-20 100149" src="https://github.com/user-attachments/assets/2801c258-73b0-4853-ba65-8fbe1777443c" />
+<img width="1877" height="986" alt="image" src="https://github.com/user-attachments/assets/9bedf186-ad1a-41a3-b6ce-554a9920f272" />
 
 
+<img width="1855" height="838" alt="image" src="https://github.com/user-attachments/assets/cbb9c8a6-657b-471e-90dc-2484b6f1705e" />
 
 
 
